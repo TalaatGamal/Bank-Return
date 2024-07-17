@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+body{
+    width: 100vw;
+    height: max-content;
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.container{
+    width: 100vw;
+    height: max-content;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.716);
+    color: #ffffff;
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.478);
+    border-bottom: #505050 solid 2px;
+    height: 8vh;
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    overflow: hidden;
+}
+.header a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.content-header{
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    /* background-color: #009dff; */
+}
+.logo-div{
+    background-color: rgba(0, 255, 255, 0);
+    width: 50%;
+    height: 8vh;
+}
+.content-logo-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0);
+}
+.content-logo-div a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.content-logo-div img{
+    width: 3vw;
+    margin-right: 1vw;
+}
+.u{
+    color: #e20000;
+}
+.s{
+    color: #009dff;
+}
+.links-div{
+    background-color: rgba(0, 82, 82, 0);
+    width: 50%;
+    height: 8vh;
+}
+.logo-links{
+    margin-top: 1.5vh;
+}
+.content-links-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0);
+}
+.links-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0);
+    background-color: w;
+    gap: 30px;
+    list-style: none;
+ }
+
+.home{
+    background-color: rgba(0, 0, 0, 0);
+    width: 100vw;
+    height: max-content;
+    min-height: 100vh;
+    background-image: url(https://res.cloudinary.com/alex-bank/image/upload/fl_lossy/c_scale,w_auto/f_auto,q_auto/dpr_auto/prod/publicportal/images/COM_5_V3_remittance_speed_remittance);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.home-content{
+    background-color: #000000b2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: max-content;
+    min-height: 100vh;
+}
+.text-home-content{
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100vh;
+}
+.text-div{
+    background-color: rgba(127, 255, 212, 0);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    text-align: center;
+    padding-top: 35vh;
+    padding-left: 5vw;
+    padding-top: 60vh;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .text-div{
+        padding-left: 15vw;
+        }
+        .home{
+            background-position: 30%;
+        }
+}
